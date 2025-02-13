@@ -1,11 +1,6 @@
-variable "network_interface_id" {
-	type = string
-	default = "vpc-4f53e932s"
-}
-
 variable "ami" {
 	type = string
-	default = "ami-0182f373e66f89c85"
+	default = "ami-03d49b144f3ee2dc4"
 }
 
 variable "instance_type" {

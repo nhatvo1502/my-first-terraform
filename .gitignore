@@ -1,2 +1,7 @@
 .terraform/
 .terraform.lock.hcl
+.my-key
+.my-key.pub
+.secrets/
+.terraform.tfstate
+.terraform.tfstate.backup
