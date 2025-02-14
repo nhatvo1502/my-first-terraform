@@ -14,9 +14,10 @@ Testing:
 
 Keypairs:
 - I created a public and private key on my local computer using power shell
-''' bash
+``` bash
 ssh-keygen -t rsa -b 2048 -f C:\path\to\your\keyfile
-'''
+```
+
 - I used this only keypair to create both Public Instance and Private Instance
 - When SHH from Public Instance, I create new private key on Public Instance and paste the value in, then use it to SSH into the Private Instance. I'm aware this is not a secure way to store secret. This is just a terraform/aws networking exercise.
 ![alt text](<images/my-first-terraform.drawio.png>)
