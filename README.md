@@ -1,6 +1,8 @@
 # my-first-terraform
 
-## Using Terraform to create a simple and secure virtual network infrastructure on AWS that contains:
+## Purpose: Taking advantage of IaC but using Terraform to create a simple but secured virtual network infrastructure on AWS.
+
+## Infrastruture contains:
 - 1 VPC in us-west-1, CIDR 10.0.0.0/16
 - 1 Public Subnet, CIDR 10.0.1.0/24 with Internet Gateway that allow all trafic from Public Subnet to internet with no restriction using a Public Route Table
 - 1 Private Subnet, CIDR 10.0.2.0/24 with no internet access
