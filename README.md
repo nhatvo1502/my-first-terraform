@@ -21,5 +21,8 @@
 ssh-keygen -t rsa -b 2048 -f C:\path\to\your\keyfile
 ```
 - I only used this keypair to create both Public Instance and Private Instance
-- When SHH from Public Instance, I create new private key on Public Instance and paste the value in, then use it to SSH into the Private Instance. I'm aware this is not a secure way to store secret. This is just a terraform/aws networking exercise.
+- When SHH from Public Instance, I create new private key on Public Instance and paste the value in, then use it to SSH into the Private Instance. I'm aware this is not a secure way to store secret but also tried to keep it simple. 
+
+## Improvement:
+- Use AWS Secrets Manager to quickly store and summons it
 ![alt text](<images/my-first-terraform.drawio.png>)
