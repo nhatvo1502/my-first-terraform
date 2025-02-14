@@ -130,6 +130,12 @@ resource "aws_nat_gateway" "terraform_natgateway" {
 	}
 }
 
+# Associate Private Route Table with Private Subnet
+resource "aws_route_table_association" "private" {
+	subnet_id = aws_subnet.terraform_private_subnet_1.id
+	route_table_id = aws_route_table.terraform_rt_private_1.id
+}
+
 ###########
 # keypair #
 ###########
