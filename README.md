@@ -1,5 +1,7 @@
 # my-first-terraform
 
+![alt text](<images/my-first-terraform.drawio.png>)
+
 ## Purpose: 
 - Taking advantage of IaC to create a simple but secured virtual network infrastructure on AWS that managable via Terraform cli.
 
@@ -25,4 +27,3 @@ ssh-keygen -t rsa -b 2048 -f C:\path\to\your\keyfile
 
 ## Improvement:
 - Use AWS Secrets Manager to quickly store and summons it
-![alt text](<images/my-first-terraform.drawio.png>)
