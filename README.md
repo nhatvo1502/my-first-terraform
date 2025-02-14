@@ -1,0 +1,1 @@
+![alt text](<images/my-first-terraform.drawio.png>)
