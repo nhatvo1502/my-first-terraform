@@ -1,6 +1,7 @@
 # my-first-terraform
 
-## Purpose: Taking advantage of IaC but using Terraform to create a simple but secured virtual network infrastructure on AWS.
+## Purpose: 
+- Taking advantage of IaC but using Terraform to create a simple but secured virtual network infrastructure on AWS.
 
 ## Infrastruture contains:
 - 1 VPC in us-west-1, CIDR 10.0.0.0/16
